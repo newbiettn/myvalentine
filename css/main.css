@@ -1,0 +1,81 @@
+html {
+	background: url(../img/valentine_newbiettn.jpg) no-repeat center center
+		fixed;
+	/* background-color: #ffc1ce; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fefefe;
+	z-index: 99;
+	height: 100%;
+}
+
+.preload-status {
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 38%;
+	top: 20%;
+	background-image: url("../img/loading2.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sc-container {
+	z-index: 999;
+	bottom: 20px;
+	position: absolute;
+	transition: left 0.3s ease-in-out 0s;
+	width: 100%;
+}
+
+.sc-waveform-container {
+	height: 100px;
+}
+
+.sc-controls {
+	display: inline-block;
+	height: 24px;
+	margin-right: 5px;
+	width: 24px;
+}
+
+.sc-controls .sc-play-button {
+	padding: 0;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	display: none;
+}
+
+.sc-controls .ready, .sc-controls .pause {
+	background: url('../img/button_play_red.png') no-repeat;
+}
+
+.sc-controls .playing {
+	background: url('../img/button_pause_red.png') no-repeat;
+}
+
+.sc-artist {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.sc-player {
+	width: 40%;
+	margin: 0 auto;
+}
